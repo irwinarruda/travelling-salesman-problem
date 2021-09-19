@@ -62,7 +62,8 @@ export const Header = (): JSX.Element => {
             <VStack
                 alignItems="center"
                 spacing="20px"
-                width="container.xl"
+                maxWidth="container.xl"
+                width="100%"
                 margin="0 auto"
                 padding="20px"
             >
@@ -80,7 +81,7 @@ export const Header = (): JSX.Element => {
                     >
                         Encontrar Distâncias
                     </Button>
-                    <Popover>
+                    <Popover placement="auto">
                         <PopoverTrigger>
                             <IconButton
                                 disabled={

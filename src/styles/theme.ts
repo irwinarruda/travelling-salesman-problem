@@ -6,6 +6,7 @@ export const theme = extendTheme({
     styles: {
         global: (props: Dict<any>) => ({
             body: {
+                overflowX: 'auto',
                 color: mode('gray.800', 'whiteAlpha.900')(props),
                 bgColor: mode('white', 'gray.700')(props),
             },
