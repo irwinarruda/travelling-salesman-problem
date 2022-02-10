@@ -6,7 +6,7 @@ A UI representation of the Travelling salesman problem. The OD Matrix was made v
     <img src="https://user-images.githubusercontent.com/68255804/153514585-f8d92cfd-92eb-4ac3-8a1e-d6a39a02f086.gif" />
 </p>
 
-### Technologies
+## Technologies
 
 -   React.js;
 -   Next.js;
